@@ -15,7 +15,7 @@ public class takeaway extends AppCompatActivity {
     }
 
     public void mesan(View view) {
-        Intent a = new Intent(this,dinein.class);
+        Intent a = new Intent(this,daftarmenu.class);
         startActivity(a);
     }
 }
