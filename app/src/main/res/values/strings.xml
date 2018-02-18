@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ACHMADIRJIKUBAY_1202154184_MODUL2</string>
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="take_away">Take Away</string>
+    <string name="dine_in">Dine In</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="menu">Menu</string>
+    <string name="detail_customer">Detail Customer</string>
+    <string name="nama">Nama</string>
+    <string name="pesandine">Pesan</string>
+    <string name="identitas_pemesan">Identitas Pemesan:</string>
+
+    <string-array name="spin">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+    <string-array name="nama">
+        <item>Froyo</item>
+        <item>Burger</item>
+        <item>Fries</item>
+    </string-array>
+    <string-array name="gambar">
+        <item>@drawable/burger</item>
+        <item>@drawable/froyo_circle</item>
+
+        <item>@drawable/fries</item>
+    </string-array>
+    <string-array name="harga">
+        <item>Rp 25.000</item>
+        <item>Rp 23.000</item>
+        <item>Rp 20.000</item>
+    </string-array>
+    <string-array name="komposisi">
+        <item>Susu</item>
+        <item>Roti,daging </item>
+        <item>Kentang</item>
+    </string-array>
+
+</resources>

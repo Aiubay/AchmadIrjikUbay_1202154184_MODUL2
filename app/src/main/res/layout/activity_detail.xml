@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ubay.achmadirjikubay_1202154184_modul2.detail">
+    <TextView
+        android:id="@+id/namaMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Froyo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:id="@+id/detailGambar"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:src="@drawable/froyo_circle"
+        />
+    <TextView
+        android:id="@+id/hargaMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 14000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komposisi :"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Susu"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="Pesan"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="konfirmasi"
+        android:background="#1E90FF"
+        android:textColor="#fff"
+        android:padding="7dp"
+        />
+
+</LinearLayout>
